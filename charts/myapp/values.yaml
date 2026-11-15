@@ -1,0 +1,9 @@
+replicaCount: 1
+image:
+  repository: devsecopsacr9025.azurecr.io/myapp
+  tag: "v1"
+service:
+  port: 80
+resources:
+  requests: { cpu: 50m, memory: 64Mi }
+  limits: { cpu: 250m, memory: 128Mi }

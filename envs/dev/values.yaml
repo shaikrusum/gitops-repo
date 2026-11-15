@@ -1,0 +1,4 @@
+replicaCount: 1
+image:
+  repository: devsecopsacr9025.azurecr.io/myapp
+  tag: "v1"
